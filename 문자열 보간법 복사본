@@ -1,0 +1,9 @@
+## ::문자열 보간법::
+
+- 문자열 보간법의 정의: 변수 또는 상수의 값을 문자열 내에 나타날 때 사용된다.
+- 예시: Welcome to korea 출력 됨.
+
+```swift
+var city = "korea"
+var message = "Welcome to \\(city)"
+```
